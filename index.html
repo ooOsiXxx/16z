@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/comon_styles.css">
+    <link rel="stylesheet" href="./styles/block_styles.css">
+    <link rel="stylesheet" href="./styles/theme_styles.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/phosphor-icons"></script>
+
+    <title>Крестики-Нолики</title>
+</head>
+<body>
+    <header>
+        <div class="intro">
+                Крестики-Нолики
+        </div>
+    </header>
+    <main>
+        <div class="game-container">
+            <div class="game-area">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="game-status">
+                <span><i class="ph-circle"></i> ход</span>
+            </div>
+        </div>
+
+        <div class="result-container">
+            <div class="icon close"><i class="ph-x"></i></div>
+            <div class="result-area">
+                <span>Ты победил</span>
+            </div>
+            
+        </div>
+
+    </main>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
